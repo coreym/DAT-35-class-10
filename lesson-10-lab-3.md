@@ -8,3 +8,5 @@
 ![](https://raw.githubusercontent.com/coreym/DAT-35-class-10/master/assets/make_asset_public.png)
 4. Set access settings to 'everyone' 'open/download' so that it's accessible from your notebook
 ![](https://raw.githubusercontent.com/coreym/DAT-35-class-10/master/assets/set_csv_permissions.png)
+
+###Keep the csv link handy!
