@@ -2,6 +2,7 @@
 
 ##Configure and launch jupyter hub(15 mins)
 Documentation link: http://jupyter-notebook.readthedocs.io/en/latest/public_server.html#notebook-public-server
+
 1. In your SSH terminal, run jupyter notebook --generate-config 
 
 ```
@@ -22,7 +23,6 @@ Run "sudo yum update" to apply all updates.
 3. In the nano text editor you just launched, search for the following configuration directives (control-W for search):
 	- set `c.NotebookApp.open_browser = False`
 	- set `c.NotebookApp.port = 8888`
-	- set `c.NotebookApp.open_browser = False`
 	- set `c.NotebookApp.ip = '*'`
 4. In nano, `control-x` to writeout (save) 
 5. Back on the command line, run `jupyter notebook`. If successful, you should see something like this: 
