@@ -19,7 +19,7 @@ Run "sudo yum update" to apply all updates.
 [ec2-user@ip-172-31-36-223 ~]$ jupyter notebook --generate-config
 ```
 
-2. run `nano jupyter_notebook_config.py`
+2. run `nano .jupyter/jupyter_notebook_config.py`
 3. In the nano text editor you just launched, search for the following configuration directives (control-W for search):
 	- set `c.NotebookApp.open_browser = False`
 	- set `c.NotebookApp.port = 8888`
