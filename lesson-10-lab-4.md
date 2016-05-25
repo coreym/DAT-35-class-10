@@ -3,7 +3,7 @@
 ##Configure and launch jupyter hub(15 mins)
 Documentation link: http://jupyter-notebook.readthedocs.io/en/latest/public_server.html#notebook-public-server
 
-1. In your SSH terminal, run jupyter notebook --generate-config 
+1. In your SSH terminal, run `jupyter notebook --generate-config` 
 
 ```
 MacBook-Air:assets corey$ ssh -i ~/.ssh/GAlab.pem ec2-user@ec2-52-39-178-176.us-west-2.compute.amazonaws.com
